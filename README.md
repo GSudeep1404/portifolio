@@ -2,7 +2,7 @@
 
 A modern, responsive, high-performance personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Lucide React**, crafted specifically for an AI & Machine Learning student and developer.
 
-![Portfolio Theme](https://img.shields.io/badge/Theme-Dark%20Cyber-06b6d4)
+![Portfolio Theme](https://img.shields.io/badge/Theme-Editorial%20Cream%20%26%20Espresso-d97706)
 ![Framework](https://img.shields.io/badge/Framework-React%20%2B%20Vite-61dafb)
 ![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS-38bdf8)
 ![Status](https://img.shields.io/badge/Production-Ready-10b981)
@@ -12,9 +12,9 @@ A modern, responsive, high-performance personal portfolio website built with **R
 ## 🌟 Highlights & Features
 
 1. **Sticky Glassmorphic Navbar**: Smooth blur on scroll, active section indicator, mobile drawer menu, and quick `⌘K` trigger.
-2. **Futuristic Hero Section**: Dynamic AI neural network SVG visual, interactive code terminal tabs (`SentinelAI.py`, `MedAssist.py`, `AgriPulse.py`), floating status badges, and dual CTA buttons.
+2. **Editorial Hero Section**: Dynamic blueprint network visual, interactive code terminal tabs (`SentinelAI.py`, `MedAssist.py`, `AgriPulse.py`), floating status badges, and direct resume download.
 3. **Structured About Me**: Student narrative, core technical interest chips, 4 quick info cards, and "Currently Deep-Diving" badges.
-4. **Interactive Skills Matrix**: Categorized into AI/ML, Programming, Web Dev, Cloud & Security, Databases, and Tools with live category filtering tabs and proficiency levels.
+4. **Interactive 6-Field Skills Dropdown**: Custom dropdown menu allowing switching between all 6 technical fields (AI & ML, Programming, Web & Full-Stack, Databases, Cloud & IoT, Developer Tools), with collapsible accordion card drawers and quick pill filters.
 5. **Featured Project Cards & Deep Dive Modal**:
    - **SentinelAI**: AI Security Gateway for LLM Applications (Prompt injection defense & PII redactor).
    - **MedAssist AI**: AI-Powered Clinical Assistant (with ethical medical disclaimer).
