@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf8f5;
+  color: #2b1e17;
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Editorial Warm Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #ded4c3;
+  border-radius: 9999px;
+  border: 2px solid #faf8f5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2b39d;
+}
+
+/* Tactile paper micro-noise texture for rich organic physical feel */
+.noise-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+}
+
+/* Architectural precision grid in warm sepia */
+.precision-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(94, 70, 52, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(94, 70, 52, 0.035) 1px, transparent 1px);
+  mask-image: radial-gradient(ellipse 75% 65% at 50% 30%, #000 55%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 75% 65% at 50% 30%, #000 55%, transparent 100%);
+}
+
+/* Warm Porcelain Glassmorphism & Ivory Hardware Cards */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #e7ded2;
+  box-shadow: 0 10px 30px -10px rgba(60, 42, 28, 0.06), inset 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+
+.glass-card {
+  background: #ffffff;
+  border: 1px solid #e7ded2;
+  box-shadow: 0 6px 20px -8px rgba(60, 42, 28, 0.06), 0 1px 3px rgba(60, 42, 28, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: #c9bcab;
+  box-shadow: 0 16px 36px -12px rgba(60, 42, 28, 0.1), 0 2px 6px rgba(60, 42, 28, 0.04);
+  transform: translateY(-3px);
+}
+
+/* Deep Roast Espresso Typography Gradients */
+.gradient-text {
+  background: linear-gradient(135deg, #1d140f 0%, #4a3427 60%, #7c583f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-bronze {
+  background: linear-gradient(135deg, #36261d 0%, #8c5b3e 60%, #b46b3f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-silver {
+  background: linear-gradient(135deg, #1d140f 0%, #5e4634 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tactile Brown & Cream Buttons */
+.btn-primary {
+  background: #2b1e17;
+  color: #ffffff;
+  box-shadow: 0 4px 14px 0 rgba(43, 30, 23, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  transition: all 0.25s ease-out;
+}
+.btn-primary:hover {
+  background: #1a120d;
+  box-shadow: 0 6px 20px 0 rgba(43, 30, 23, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: #ffffff;
+  border: 1px solid #ded5c5;
+  color: #38281e;
+  box-shadow: 0 2px 6px rgba(50, 35, 25, 0.04);
+  transition: all 0.25s ease-out;
+}
+.btn-secondary:hover {
+  background: #f8f4ec;
+  border-color: #c9bcab;
+  color: #1f140f;
+  transform: translateY(-1px);
+}
